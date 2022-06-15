@@ -14,7 +14,7 @@ enum layer_names {
     _FN2,
     _FN3
 };
-
+/*
  *   /-------------------\
  *   |ENC| 1 | 2 | 3 |ENC|
  *   |---+---'---'---+---|
@@ -95,7 +95,7 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     }
     break;
   }
-  
+
 
 }}
 return false;
