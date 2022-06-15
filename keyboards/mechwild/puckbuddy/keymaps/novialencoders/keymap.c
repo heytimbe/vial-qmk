@@ -7,14 +7,6 @@ bool is_alt_tab_active = false;
 bool is_alt_shift_tab_active = false;
 uint16_t alt_tab_timer = 0;
 
-//void keyboard_post_init_user(void) {
-  // Customise these values to desired behaviour
-  //debug_enable=true;
-  //debug_matrix=true;
-  //debug_keyboard=true;
-  //debug_mouse=true;
-//}
-
 // Defines names for use in layer keycodes and the keymap
 enum layer_names {
     _BASE,
@@ -22,7 +14,7 @@ enum layer_names {
     _FN2,
     _FN3
 };
-/*
+
  *   /-------------------\
  *   |ENC| 1 | 2 | 3 |ENC|
  *   |---+---'---'---+---|
