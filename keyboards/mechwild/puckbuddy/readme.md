@@ -1,5 +1,12 @@
 # PuckBuddy
 
+Forked from MechWild. 
+
+Goal here was to implement Alt Tab encoder scrolling (with the window preview) on the Puckbuddy. I would not reccomend the keymap: alttabpad at this time. Using this keymap in Vial, the scrolling is really jumpy. It was slowed down with TAP_CODE_DELAY in config.h, but the results are slow and not great. 
+
+Instead, another keymap, novialencoders, was created. Vial encoder customizations are disabled with this keymap. Instead they are written directly into the keymap.
+
+
 ![PuckBuddy](https://i.imgur.com/iSVAHJzh.png)
 
 A macropad with a Cirque Glidepoint Trackpad in the middle, powered by the STM32 Blackpill.
